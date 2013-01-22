@@ -1,0 +1,34 @@
+{
+  "name": "worker-docverter",
+  "title": "CouchDB worker for Docverter's HTTP API",
+  "description": "CouchDB worker that converts plain text field values written in HTML, Markdown, or LaTeX to PDF, Docx, RTF or ePub using Docverter's HTTP API.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/openwebcraft/worker-docverter",
+  "author": {
+    "name": "Matthias Geisler",
+    "email": "matthias@openwebcraft.com",
+    "url": "http://openwebcraft.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openwebcraft/worker-docverter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openwebcraft/worker-docverter/issues"
+  },
+  "dependencies": {
+    "underscore": ">= 1.4.3",
+    "cradle": ">= 0.6.4"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "couchdb",
+    "worker",
+    "docverter"
+  ]
+}
