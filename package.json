@@ -18,7 +18,9 @@
   },
   "dependencies": {
     "underscore": ">= 1.4.3",
-    "cradle": ">= 0.6.4"
+    "cradle": ">= 0.6.4",
+    "temporary": ">= 0.0.5",
+    "form-data": ">= 0.0.6"
   },
   "engines": {
     "node": ">= 0.6.0"
