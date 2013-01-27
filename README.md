@@ -26,11 +26,11 @@ Create a `.env` file with your project configuration:
     COUCHDB_DB_URL=https://ADMIN:PARTY@EXAMPLE.iriscouch.com/YOUR_EXAMPLE_COM
     DOCVERTER_API_URL=http://YOUR-EXAMPLE-1234.herokuapp.com/convert
 
-Push your local environment file to Heroku: `heroku config:push`
-
 Next, deploy the application to Heroku.
 
 Create the app: `heroku create`
+
+Push your local environment file to Heroku: `heroku config:push`
 
 Deploy the code: `git push heroku master`
 
