@@ -3,13 +3,10 @@ var WorkerDocverter = require("./lib/docverter");
 // config
 var config = {
 	couchdb: {
-    	server: process.env.COUCHDB_SERVER_URL,
-    	db: process.env.COUCHDB_DATABASE,
-    	admin_user: process.env.COUCHDB_ADMIN_USER,
-    	admin_pass: process.env.COUCHDB_ADMIN_PASS
+    	db: process.env.COUCHDB_DB_URL // Fully-qualified URL of a couch database. (Basic auth URLs are ok.)
 	},
 	docverter: {
-    	api: process.env.DOCVERTER_API_URL
+    	api: process.env.DOCVERTER_API_URL // Fully-qualified URL of Docverter /convert API
 	}
 }
 
