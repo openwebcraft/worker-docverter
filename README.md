@@ -8,8 +8,8 @@ Install node dependencies: `npm install`
 
 Create a `.env` file with your project configuration (for `foreman` to pick up):
 
-    COUCHDB_DB_URL=http://admin:party@127.0.0.1:5984/example_com
-    DOCVERTER_API_URL=http://127.0.0.1:9595/convert
+    COUCHDB=http://admin:party@127.0.0.1:5984/example_com
+    DOCVERTER=http://127.0.0.1:9595/convert
 
 Start worker: `foreman start`
 
@@ -23,8 +23,8 @@ Install [heroku-config][heroku-config], a plugin for the `heroku` CLI that makes
 
 Create a `.env` file with your project configuration:
 
-    COUCHDB_DB_URL=https://ADMIN:PARTY@EXAMPLE.iriscouch.com/YOUR_EXAMPLE_COM
-    DOCVERTER_API_URL=http://YOUR-EXAMPLE-1234.herokuapp.com/convert
+    COUCHDB=https://ADMIN:PARTY@EXAMPLE.iriscouch.com/YOUR_EXAMPLE_COM
+    DOCVERTER=http://YOUR-EXAMPLE-1234.herokuapp.com/convert
 
 Next, deploy the application to Heroku.
 
