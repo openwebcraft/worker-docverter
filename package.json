@@ -24,8 +24,8 @@
     "form-data": ">= 0.0.6"
   },
   "engines": {
-    "node": "0.8.16",
-    "npm":  "1.1.65"
+    "node": "0.8.x",
+    "npm":  "1.1.x"
   },
   "scripts": {
     "start": "node index.js"
