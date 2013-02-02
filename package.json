@@ -21,7 +21,7 @@
     "nano": ">= 3.3.6",
     "follow": ">= 0.8.0",
     "temporary": ">= 0.0.5",
-    "form-data": ">= 0.0.6"
+    "needle": ">= 0.4.8"
   },
   "engines": {
     "node": "0.8.x",
