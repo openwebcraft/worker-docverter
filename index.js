@@ -1,4 +1,5 @@
-var WorkerDocverter = require("./lib/docverter");
+var WorkerDocverterToHtml = require("./lib/docverterToHtml");
+var WorkerDocverterToPdf = require("./lib/docverterToPdf");
 
 // config
 var config = {
@@ -11,4 +12,5 @@ var config = {
 }
 
 // let's work
-var worker = new WorkerDocverter(config);
+var workerToHtml = new WorkerDocverterToHtml(config);
+var workerToPdf = new WorkerDocverterToPdf(config);
